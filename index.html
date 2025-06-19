@@ -1,0 +1,169 @@
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="profile-image-container">
+                <img src="msg1.jpg" alt="個人頭像" class="profile-image">
+            </div>
+            <div class="header-text">
+                <h1>個人履歷</h1>
+                <p class="status">積極尋找新機會</p>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <section class="info-section">
+                <h2><i class="fas fa-user-circle"></i> 基本資料</h2>
+                <div class="info-grid">
+                    <div><strong>性別:</strong> 男</div>
+                    <div><strong>年齡:</strong> XX歲</div>
+                    
+                    <div><strong>交通:</strong> 普通重型機車</div>
+                    <div class="full-width"><strong>駕照:</strong> 普通重型機車駕照</div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2><i class="fas fa-address-book"></i> 聯絡方式</h2>
+                 <div class="info-grid contact-grid">
+                    <div>
+                        <i class="fas fa-phone-alt icon"></i>
+                        <div>
+                            <strong>手機</strong><br>
+                            <a href="tel:0952-XXX-XXX">0952-XXX-XXX</a>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope icon"></i>
+                        <div>
+                            <strong>E-mail</strong><br>
+                            <a href="mailto:XXX@gmail.com">XXX@gmail.com</a>
+                        </div>
+                    </div>
+                     <div class="full-width">
+                         <i class="fas fa-clock icon"></i>
+                         <div>
+                            <strong>方便聯絡時間</strong><br>
+                            週一至週五 09:00 - 17:00
+                         </div>
+                    </div>
+                    <div class="full-width">
+                        <i class="fas fa-map-marker-alt icon"></i>
+                        <div>
+                            <strong>通訊地址</strong><br>
+                            台中市******
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2><i class="fas fa-bullseye"></i> 求職目標</h2>
+                <p class="objective">希望能應徵前端工程師職位，貢獻所學，並與公司一同成長。</p>
+            </section>
+            
+            <section class="info-section">
+                <h2><i class="fas fa-graduation-cap"></i> 學歷</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2005/09 - 2009/06</div>
+                        <div class="timeline-content">
+                            <h3>國立OO大學 - 資訊工程學系</h3>
+                            <p>學士學位</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="info-section">
+                <h2><i class="fas fa-briefcase"></i> 工作經歷</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2015/07 - 2023/12</div>
+                        <div class="timeline-content">
+                            <h3>XX科技公司 - 軟體工程師</h3>
+                            <ul>
+                                <li>負責開發與維護公司 Web 應用程式。</li>
+                                <li>與 PM、UI/UX 設計師合作，將設計稿轉化為高品質的產品。</li>
+                                <li>進行程式碼審查 (Code Review)，確保程式碼品質。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2011/10 - 2015/06</div>
+                        <div class="timeline-content">
+                            <h3>YY軟體工作室 - 助理工程師</h3>
+                            <ul>
+                                <li>協助開發內部管理系統。</li>
+                                <li>測試並修復軟體錯誤。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2><i class="fas fa-laptop-code"></i> 技能專長</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>前端開發</h3>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript (ES6+)</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Vue.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>後端開發</h3>
+                        <div class="tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>其他</h3>
+                        <div class="tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">Webpack</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.info-section');
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '0px',
+                threshold: 0.1
+            });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
